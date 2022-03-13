@@ -1,13 +1,11 @@
 import projects from "./Project.js";
-import ProjectItem from "./ProjectsListItem.js";
+import ProjectListItem from "./ProjectsListItem.js";
 
 const ProjectList = () => {
   return(`
-    <ul>
       ${projects.map(project => {
-        return(ProjectItem(project));
+        return(ProjectListItem(project));
   }).join('')}
-    </ul>
   `);
 }
 export default ProjectList;

@@ -1,7 +1,7 @@
 import ProjectList from "./Projects/index.js";
 
 (function ($) {
-  $('#wd-explore').append(`
+  $('#website').append(`
         <div>
             ${ProjectList()}
         </div>
