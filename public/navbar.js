@@ -5,12 +5,12 @@ import ProjectList from "./Projects/index.js";
           <nav class="navbar fixed-top bg-info">
     <div class="container p-2">
 
-      <div class="col-3 text-white">
+      <div class="col-8 text-white">
         Mathew Hirsch Portfolio Website
       </div>
       
       
-      <div class="col-1">
+      <div hidden class="col-1">
         <a href="./index.html" class="text-white">
           Home
         </a>
