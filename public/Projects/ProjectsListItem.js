@@ -5,7 +5,7 @@ const ProjectListItem = (project) => {
   if(project.projectImage !== ""){
     imageHTML =
           `<div class="column">
-            <img src=${project.projectImage} class="img-fluid" alt="Responsive Image" style="width:384px;>
+            <img src=${project.projectImage} class="img-fluid" alt="Responsive Image" style="width:384px;">
           </div>`
   }
   return(`

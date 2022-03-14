@@ -23,7 +23,7 @@ export default [
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
     projectImage:"./PhotoEditor.png",
-    projectTimeline:`../June 2021`},
+    projectTimeline:`June 2021`},
 
   {projectName:`Flood-it`,
     projectLanguages:`Java`,
