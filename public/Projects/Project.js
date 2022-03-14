@@ -23,7 +23,7 @@ export default [
     We also created our own image file format very similar to PPM which could be interpreted by our program and could be imported and exported.
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"PhotoEditor.png",
+    projectImage:"/PhotoEditor.png",
     projectTimeline:`June 2021`},
 
   {projectName:`Flood-it`,
@@ -33,7 +33,7 @@ export default [
     The program also generates a goal number of clicks for the player to fill the whole board, based on the board size they chose.  If that goal is met, the user score is set as the record to beat, and the new click goal.
     This project was based on the example found <a href="https://unixpapa.com/floodit/" target="_blank">here</a>.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"floodIt.png",
+    projectImage:"/floodIt.png",
     projectTimeline:`March-April 2021`},
 
   {projectName:``,
