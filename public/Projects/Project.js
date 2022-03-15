@@ -6,6 +6,15 @@ export default [
     projectImage:"",
     projectTimeline:`March 2022`},
 
+  {projectName:`Tuiter`,
+    projectLanguages:`HTML, CSS, Javascript`,
+    projectDescription:`For my web development course, I am creating a twitter-like website adding to it each week with new skills learned.
+    The site is written mostly with HTML and CSS, and a few pages use JavaScript scripts to generate HTML.
+    The site is hosted on netlify, from a github repository found <a href="https://github.com/Matamir/web-dev" target="_blank">here</a>.
+    `,
+    projectImage:"",
+    projectTimeline:`January-March 2022`},
+
   {projectName:`Discord Bot`,
     projectLanguages:`Python`,
     projectDescription:`Using the discord.py API, I wrote a simple discord bot that could respond to messages.
