@@ -5,7 +5,7 @@ import ProjectList from "./Projects/index.js";
           <nav class="navbar fixed-top bg-info">
     <div class="container p-2">
 
-      <div class="col-8 text-white">
+      <div class="col-5 text-white">
         Mathew Hirsch Portfolio Website
       </div>
       
@@ -16,10 +16,15 @@ import ProjectList from "./Projects/index.js";
         </a>
       </div>
       
-      
       <div class="col-1">
         <a href="./about.html" class="text-white">
           About
+        </a>
+      </div>
+
+      <div class="col-1">
+        <a href="./demos.html" class="text-white">
+          Demos
         </a>
       </div>
       
