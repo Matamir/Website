@@ -9,13 +9,18 @@ const twentyfourgame = () => {
   let sub = "-";
   let mult = "*";
   let div = "/";
+  let openParen = "("
+  let closeParen = ")"
+
 
   let equation = ""
 
-  const number = (num) => 
-  `<div class = "col" onClick="equationText.value = equationText.value.concat(${num})">
+  const number = (num) =>
+    `<div class = "col" onClick="equationText.value = equationText.value.concat(${num})">
+    <button type="button" class = "btn btn-info">
     ${num}
-  </div>`
+    </button>
+    </div>`
 
   const numbers =
     `
@@ -31,9 +36,11 @@ const twentyfourgame = () => {
       </div>
     </div>
     `
-  const tool = (sym) => 
-    `<div class = "col" onClick="equationText.value = equationText.value.concat(${sym})">
-      ${sym}
+  const tool = (sym) =>
+    `<div class = "col" onClick="equationText.value = equationText.value.concat('${sym}')">
+    <button type="button" class = "btn btn-success">
+    ${sym}
+    </button>
     </div>`
 
   const tools =
@@ -47,6 +54,10 @@ const twentyfourgame = () => {
         ${tool(mult)}
 
         ${tool(div)}
+
+        ${tool(openParen)}
+
+        ${tool(closeParen)}
       </div>
     </div>
     `
@@ -57,12 +68,33 @@ const twentyfourgame = () => {
       <br/>
       ${tools}
 
-      <textarea id="equationText" value="${equation}"></textarea>
+      <br/>
 
-      <button style="margin-top: 100px" id ="checkButton" onClick="if(eval(equationText.value) == 24) {console.log('good')} else {console.log('bad')}">
-        check Math
-      </button>
+      <div class = "container">
+        <div class = "row">
 
+          <div class = "col">
+            <textarea readonly style = "resize:none" rows = "3" cols = "100" id="equationText" value="${equation}"></textarea>
+          </div>
+
+          <div class = "col">
+
+            <div class = "row">
+              <button class = "mr-3 btn btn-warning" id ="checkButton" onClick="if(eval(equationText.value) == 24) {console.log('good')} else {console.log('bad')}">
+                Check Math
+              </button>
+            </div>
+
+            <div class = "row">
+              <button class = "mr-3 btn btn-danger" id ="reset" onClick="equationText.value = ''">
+                Reset Equation
+              </button>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+    
     </div>
   `);
 }
