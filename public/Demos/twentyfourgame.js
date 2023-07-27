@@ -12,14 +12,18 @@ const twentyfourgame = () => {
   let openParen = "("
   let closeParen = ")"
 
+  let streak = 0;
 
   let equation = ""
 
   const number = (num) =>
-    `<div class = "col" onClick="equationText.value = equationText.value.concat(${num})">
-    <button type="button" class = "btn btn-info">
-    ${num}
-    </button>
+    `<div class = "col">
+      <button type="button" class = "btn btn-info buttonNum" onClick="
+        equationText.value = equationText.value.concat(${num});
+        this.disabled = true;
+      ">
+        ${num}
+      </button>
     </div>`
 
   const numbers =
@@ -74,19 +78,52 @@ const twentyfourgame = () => {
         <div class = "row">
 
           <div class = "col">
+            <div class = "row">
+              <h4>
+                streak:
+              </h4>
+            </div>  
+            
+            <div class = "row">
+              <h4 id = "streakValue">
+                ${streak}
+              </h4>
+            </div>  
+          </div>
+
+          <div class = "col">
             <textarea readonly style = "resize:none" rows = "3" cols = "100" id="equationText" value="${equation}"></textarea>
           </div>
 
           <div class = "col">
 
             <div class = "row">
-              <button class = "mr-3 btn btn-warning" id ="checkButton" onClick="if(eval(equationText.value) == 24) {console.log('good')} else {console.log('bad')}">
+              <button class = "mr-3 btn btn-warning" id ="checkButton" onClick="
+                try {
+                  if (eval(equationText.value) == 24) 
+                    {
+                      streakValue.textContent = eval(streakValue.textContent) + 1; 
+                      alert('good job!'); 
+                    }
+                  else
+                    {alert('not quite, keep trying!')}
+                }
+                catch (error)
+                  {alert('invalid equation')}
+              ">
+                
                 Check Math
               </button>
             </div>
 
             <div class = "row">
-              <button class = "mr-3 btn btn-danger" id ="reset" onClick="equationText.value = ''">
+              <button class = "mr-3 btn btn-danger" id ="reset" onClick="
+                equationText.value = '';
+                const buttonsNum = document.getElementsByClassName('buttonNum');
+                for (let button of buttonsNum) {
+                  button.disabled = false;
+                }
+              ">
                 Reset Equation
               </button>
             </div>
