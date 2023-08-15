@@ -13,7 +13,7 @@ export default [
     I used the techniques I learned earlier in the class to work with a small group to create an android app.  We used Google's Firebase 
     Authentication to implement user authentication and Firestore as our database.  We utilized several different APIs in order to find 
     different travel options between cities, and implemented sorting and filtering options to allow users to refine their search.`,
-    projectImage:"./Images/TravelNow.png",
+    projectImage:"../Projects/Images/TravelNow.png",
     projectImageAltText:"An image of the Travel Now android app.",
     projectTimeline:`January - April 2023`},
 
@@ -63,7 +63,7 @@ export default [
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"./Images/PhotoEditor.png",
+    projectImage:"../Projects/Images/PhotoEditor.png",
     projectImageAltText:"An image of the Photo Editor.",
     projectTimeline:`June 2021`},
 
@@ -84,7 +84,7 @@ export default [
     The program also generates a goal number of clicks for the player to fill the whole board, based on the board size they chose.  If that goal is met, the user score is set as the record to beat, and the new click goal.
     This project was based on the example found <a href="https://unixpapa.com/floodit/" target="_blank">here</a>.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"./floodIt.png",
+    projectImage:"../Projects/Images/floodIt.png",
     projectImageAltText:"An image of the Flood it game.",
     projectTimeline:`March - April 2021`},
 
@@ -94,7 +94,7 @@ export default [
     The game included: randomly generating one of eight pieces, clearing full rows, score keeping for cleared rows, and gravity dropping rows above cleared rows.
     The user is also able to start the game with partially filled in rows, giving as inputs the number of rows and the probability that any given square in the row is filled.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"./Tetris.jpg",
+    projectImage:"../Projects/Images/Tetris.jpg",
     projectImageAltText:"An image of the Tetris game.",
     projectTimeline:`October - November 2020`},
 
