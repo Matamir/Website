@@ -21,13 +21,14 @@ import ProjectList from "./Projects/index.js";
           About
         </a>
       </div>
-
+<!-- 
       <div class="col-1">
         <a href="./demos.html" class="text-white">
           Demos
         </a>
       </div>
-      
+-->
+
       <div class="col-1">
         <a href="./projectsPage.html" class="text-white">
           Projects
