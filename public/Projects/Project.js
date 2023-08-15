@@ -2,18 +2,48 @@ export default [
   {projectName:`This Website`,
     projectLanguages:`HTML, CSS, Javascript`,
     projectDescription:`Using techniques learned in my web development course, I created this website to show off projects that I work on, 
-    and to create a hub from which I can link my most recent resume as well as my github and linkedIn accounts.`,
+    and to create a hub where I can link my most recent resume as well as my github and linkedIn accounts.`,
     projectImage:"",
-    projectTimeline:`March 2022`},
+    projectImageAltText:"",
+    projectTimeline:`March 2022 - present`},
+  
+  {projectName:`TravelNow`,
+    projectLanguages:`Java`,
+    projectDescription:`An android app to find the best way to travel between two cities.  In a class for Mobile Application Development, 
+    I used the techniques I learned earlier in the class to work with a small group to create an android app.  We used Google's Firebase 
+    Authentication to implement user authentication and Firestore as our database.  We utilized several different APIs in order to find 
+    different travel options between cities, and implemented sorting and filtering options to allow users to refine their search.`,
+    projectImage:"./Images/TravelNow.png",
+    projectImageAltText:"An image of the Travel Now android app.",
+    projectTimeline:`January - April 2023`},
+
+  {projectName:`CoveyTown`,
+    projectLanguages:`TypeScript`,
+    projectDescription:`I worked in a group with three other students in my software engineering course to plan, design, develop, test, and deploy
+    an improvement to an existing video chat room website.  We added the ability to store custom images with user accounts to use as the background
+    for video chats, and made some adjustments to existing options.`,
+    projectImage:"",
+    projectImageAltText:"",
+    projectTimeline:``},
+
+  {projectName:`Photography Website`,
+    projectLanguages:`Javascript, HTML, CSS`,
+    projectDescription:`I used techniques learned in my web development course to create a website used to host images from an instagram account.
+    I implemented user accounts, likes, comments, and following.  The site used Instagram's API to pull relevant information about the images,
+    and linked back to the instagram page.`,
+    projectImage:"",
+    projectImageAltText:"",
+    projectTimeline:`April 2022`},
 
   {projectName:`Tuiter`,
     projectLanguages:`HTML, CSS, Javascript`,
-    projectDescription:`For my web development course, I am creating a twitter-like website adding to it each week with new skills learned.
+    projectDescription:`For my web development course, I created a twitter-like website adding to it each week with new skills learned.
     The site is written mostly with HTML and CSS, and a few pages use JavaScript scripts to generate HTML.
     The site is hosted on netlify, from a github repository found <a href="https://github.com/Matamir/web-dev" target="_blank">here</a>.
     `,
     projectImage:"",
-    projectTimeline:`January-March 2022`},
+    projectImageAltText:"",
+    projectTimeline:`January - March 2022`},
 
   {projectName:`Discord Bot`,
     projectLanguages:`Python`,
@@ -22,7 +52,8 @@ export default [
     The bot was hosted using an always-on repl.it
     This required reading though fairly extensive documentation, as well as testing in a discord server to find a good frequency for the bot to respond.`,
     projectImage:``,
-    projectTimeline:`July-August 2021`},
+    projectImageAltText:"",
+    projectTimeline:`July - August 2021`},
 
   {projectName:`Photo Editor`,
     projectLanguages:`Java`,
@@ -32,7 +63,8 @@ export default [
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"./PhotoEditor.png",
+    projectImage:"./Images/PhotoEditor.png",
+    projectImageAltText:"An image of the Photo Editor.",
     projectTimeline:`June 2021`},
 
   {projectName:`Solitaire`,
@@ -42,6 +74,7 @@ export default [
     I implemented thorough testing using JUnit, and did some play testing from the console.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
     projectImage:"",
+    projectImageAltText:"",
     projectTimeline:`May 2021`},
 
   {projectName:`Flood-it`,
@@ -52,7 +85,8 @@ export default [
     This project was based on the example found <a href="https://unixpapa.com/floodit/" target="_blank">here</a>.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
     projectImage:"./floodIt.png",
-    projectTimeline:`March-April 2021`},
+    projectImageAltText:"An image of the Flood it game.",
+    projectTimeline:`March - April 2021`},
 
   {projectName:`Tetris`,
     projectLanguages:`Racket`,
@@ -61,11 +95,13 @@ export default [
     The user is also able to start the game with partially filled in rows, giving as inputs the number of rows and the probability that any given square in the row is filled.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
     projectImage:"./Tetris.jpg",
-    projectTimeline:`October-November 2020`},
+    projectImageAltText:"An image of the Tetris game.",
+    projectTimeline:`October - November 2020`},
 
   {projectName:``,
     projectLanguages:``,
     projectDescription:``,
     projectImage:"",
+    projectImageAltText:"",
     projectTimeline:``},
 ];

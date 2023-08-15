@@ -2,7 +2,7 @@ import ProjectList from "./Projects/index.js";
 
 (function ($) {
   $('#navbar').append(`
-          <nav class="navbar fixed-top bg-info">
+          <nav class="navbar fixed-top" style="background-color: #F5A9B8dd">
     <div class="container p-2">
 
       <div class="col-5 text-white">
