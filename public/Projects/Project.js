@@ -97,11 +97,13 @@ export default [
     projectImage:"../Projects/Images/Tetris.jpg",
     projectImageAltText:"An image of the Tetris game.",
     projectTimeline:`October - November 2020`},
-
+/*
   {projectName:``,
     projectLanguages:``,
     projectDescription:``,
     projectImage:"",
     projectImageAltText:"",
     projectTimeline:``},
+*/
+
 ];

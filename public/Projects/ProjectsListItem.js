@@ -9,7 +9,7 @@ const ProjectListItem = (project) => {
           </div>`
   }
   return(`
-      <div class="container my-5">
+      <div class="card my-5 project-card-color" style="border-radius: 25px; padding: 25px;">
         <div class="row">
           ` + imageHTML +
           `
