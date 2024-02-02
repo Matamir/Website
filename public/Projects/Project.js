@@ -6,6 +6,16 @@ export default [
     projectImage:"",
     projectImageAltText:"",
     projectTimeline:`March 2022 - present`},
+
+  
+  {projectName:`Presidentle`,
+    projectLanguages:`HTML, CSS, Javascript`,
+    projectDescription:`A react web app designed based on wordle and other similar games.  The site will randomly select one of the US presidents, 
+    then the user can search for and select a president from a list of them using a dropdown from bootstrap.  The game can be found and played at 
+    <a target="_blank" href="https://presidentle.netlify.app/"> https://presidentle.netlify.app/ </a>`,
+    projectImage:"../Projects/Images/Presidentle.png",
+    projectImageAltText:"An image from the presidentle website showing the game being played",
+    projectTimeline:`November 2023 - January 2024`},
   
   {projectName:`TravelNow`,
     projectLanguages:`Java`,
@@ -97,6 +107,7 @@ export default [
     projectImage:"../Projects/Images/Tetris.jpg",
     projectImageAltText:"An image of the Tetris game.",
     projectTimeline:`October - November 2020`},
+
 /*
   {projectName:``,
     projectLanguages:``,
