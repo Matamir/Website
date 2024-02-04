@@ -13,7 +13,7 @@ export default [
     projectDescription:`A react web app designed based on wordle and other similar games.  The site will randomly select one of the US presidents, 
     then the user can search for and select a president from a list of them using a dropdown from bootstrap.  The game can be found and played at 
     <a target="_blank" href="https://presidentle.netlify.app/"> https://presidentle.netlify.app/ </a>`,
-    projectImage:"../Projects/Images/Presidentle.png",
+    projectImage:"../Projects/Images/Presidentle.jpg",
     projectImageAltText:"An image from the presidentle website showing the game being played",
     projectTimeline:`November 2023 - January 2024`},
   
@@ -23,7 +23,7 @@ export default [
     I used the techniques I learned earlier in the class to work with a small group to create an android app.  We used Google's Firebase 
     Authentication to implement user authentication and Firestore as our database.  We utilized several different APIs in order to find 
     different travel options between cities, and implemented sorting and filtering options to allow users to refine their search.`,
-    projectImage:"../Projects/Images/TravelNow.png",
+    projectImage:"../Projects/Images/TravelNow.jpg",
     projectImageAltText:"An image of the Travel Now android app.",
     projectTimeline:`January - April 2023`},
 
@@ -73,7 +73,7 @@ export default [
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"../Projects/Images/PhotoEditor.png",
+    projectImage:"../Projects/Images/PhotoEditor.jpg",
     projectImageAltText:"An image of the Photo Editor.",
     projectTimeline:`June 2021`},
 
@@ -94,7 +94,7 @@ export default [
     The program also generates a goal number of clicks for the player to fill the whole board, based on the board size they chose.  If that goal is met, the user score is set as the record to beat, and the new click goal.
     This project was based on the example found <a href="https://unixpapa.com/floodit/" target="_blank">here</a>.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"../Projects/Images/floodIt.png",
+    projectImage:"../Projects/Images/floodIt.jpg",
     projectImageAltText:"An image of the Flood it game.",
     projectTimeline:`March - April 2021`},
 
