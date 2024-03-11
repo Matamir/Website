@@ -9,15 +9,6 @@ let style = `style="font-size:100%;"`;
       <div class="col-6 text-white" style="font-size:30px">
         Mathew Hirsch Portfolio Website
       </div>
-      
-<!--
-      <div hidden class="col-1">
-        <a href="./index.html" class="text-white" ${style}>
-          Home
-        </a>
-      </div>
--->
-
 
       <div class="col-1">
         <a href="./about.html" class="text-white" ${style}>
@@ -25,27 +16,17 @@ let style = `style="font-size:100%;"`;
         </a>
       </div>
 
-<!-- 
-      <div class="col-1">
-        <a href="./demos.html" class="text-white" ${style}>
-          Demos
-        </a>
-      </div>
--->
-
       <div class="col-1">
         <a href="./projectsPage.html" class="text-white" ${style}>
           Projects
         </a>
       </div>
 
-
       <div class="col-1">
         <a href="./Resume.pdf" class="text-white" target="_blank" ${style}>
           Resume
         </a>
       </div>
-
 
       <div class="col-1">
         <a href="mailto:hirsch.m@northeastern.edu" class="text-white" target="_blank">
