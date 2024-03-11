@@ -1,5 +1,6 @@
 import ProjectList from "./Projects/index.js";
 
+let style = `style="font-size:100%;"`;
 (function ($) {
   $('#navbar').append(`
           <nav class="navbar fixed-top" style="background-color: #4c3438">
@@ -11,7 +12,7 @@ import ProjectList from "./Projects/index.js";
       
 <!--
       <div hidden class="col-1">
-        <a href="./index.html" class="text-white" style="font-size:30px">
+        <a href="./index.html" class="text-white" ${style}>
           Home
         </a>
       </div>
@@ -19,28 +20,28 @@ import ProjectList from "./Projects/index.js";
 
 
       <div class="col-1">
-        <a href="./about.html" class="text-white" style="font-size:30px">
+        <a href="./about.html" class="text-white" ${style}>
           About
         </a>
       </div>
 
 <!-- 
       <div class="col-1">
-        <a href="./demos.html" class="text-white" style="font-size:30px">
+        <a href="./demos.html" class="text-white" ${style}>
           Demos
         </a>
       </div>
 -->
 
       <div class="col-1">
-        <a href="./projectsPage.html" class="text-white" style="font-size:30px">
+        <a href="./projectsPage.html" class="text-white" ${style}>
           Projects
         </a>
       </div>
 
 
       <div class="col-1">
-        <a href="./Resume.pdf" class="text-white" target="_blank" style="font-size:30px">
+        <a href="./Resume.pdf" class="text-white" target="_blank" ${style}>
           Resume
         </a>
       </div>
