@@ -9,6 +9,7 @@ import {
 import Navbar from './components/navbar';
 import About from './components/about';
 import ProjectPage from './components/projectpage';
+import PageNotFound from './components/404';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={<About/>} />
         <Route path="/projectsPage" element={<ProjectPage/>}/>
         <Route path="/demos"/>
+        <Route path="/404" element={<PageNotFound/>}/>
       </Routes>
     </Router>
   );
