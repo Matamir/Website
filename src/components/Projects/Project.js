@@ -13,7 +13,7 @@ export default [
     projectDescription:`A react web app designed based on wordle and other similar games.  The site will randomly select one of the US presidents, 
     then the user can search for and select a president from a list of them using a dropdown from bootstrap.  The game can be found and played at 
     <a target="_blank" href="https://presidentle.netlify.app/"> the presidentle website. </a>`,
-    projectImage:"../Projects/Images/Presidentle.webp",
+    projectImage:"/Images/Presidentle.webp",
     projectImageAltText:"An image from the presidentle website showing the game being played",
     projectTimeline:`November 2023 - January 2024`},
   
@@ -23,7 +23,7 @@ export default [
     I used the techniques I learned earlier in the class to work with a small group to create an android app.  We used Google's Firebase 
     Authentication to implement user authentication and Firestore as our database.  We utilized several different APIs in order to find 
     different travel options between cities, and implemented sorting and filtering options to allow users to refine their search.`,
-    projectImage:"../Projects/Images/TravelNow.webp",
+    projectImage:"/Images/TravelNow.webp",
     projectImageAltText:"An image of the Travel Now android app.",
     projectTimeline:`January - April 2023`},
 
@@ -73,7 +73,7 @@ export default [
     Finally we created a very simple GUI from which these features could be used.
     This project was done over the course of about a month.  
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"../Projects/Images/PhotoEditor.webp",
+    projectImage:"/Images/PhotoEditor.webp",
     projectImageAltText:"An image of the Photo Editor.",
     projectTimeline:`June 2021`},
 
@@ -94,7 +94,7 @@ export default [
     The program also generates a goal number of clicks for the player to fill the whole board, based on the board size they chose.  If that goal is met, the user score is set as the record to beat, and the new click goal.
     This project was based on the <a href="https://unixpapa.com/floodit/" target="_blank">example found here</a>.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"../Projects/Images/floodIt.webp",
+    projectImage:"/Images/floodIt.webp",
     projectImageAltText:"An image of the Flood it game.",
     projectTimeline:`March - April 2021`},
 
@@ -104,7 +104,7 @@ export default [
     The game included: randomly generating one of eight pieces, clearing full rows, score keeping for cleared rows, and gravity dropping rows above cleared rows.
     The user is also able to start the game with partially filled in rows, giving as inputs the number of rows and the probability that any given square in the row is filled.
     Unfortunately we were asked not to make a public github repository, but a private repository is available upon request.`,
-    projectImage:"../Projects/Images/Tetris.webp",
+    projectImage:"/Images/Tetris.webp",
     projectImageAltText:"An image of the Tetris game.",
     projectTimeline:`October - November 2020`},
 

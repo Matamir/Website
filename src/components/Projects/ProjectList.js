@@ -2,10 +2,12 @@ import projects from "./Project.js";
 import ProjectListItem from "./ProjectsListItem.js";
 
 const ProjectList = () => {
-  return(`
-      ${projects.map(project => {
+  return(
+    <div>
+      {projects.map(project => {
         return(ProjectListItem(project));
-  }).join('')}
-  `);
+      })}
+    </div>
+  );
 }
 export default ProjectList;
