@@ -7,24 +7,24 @@ const Navbar = () => {
       <nav className="navbar fixed-top" style={{backgroundColor: "#4c3438"}}>
       <div className="container p-2">
 
-        <div className="col-6 text-white" style={{fontsize:"30px"}}>
+        <div className="col-6 text-white" style={{fontSize:"30px"}}>
           Mathew Hirsch Portfolio Website
         </div>
 
         <div className="col-1">
-          <NavLink to="./" className="text-white" style={{fontsize:"100%"}}>
+          <NavLink to="./" className="text-white" style={{fontSize:"100%"}}>
             About
           </NavLink>
         </div>
 
         <div className="col-1">
-          <NavLink to="./projectsPage" className="text-white" style={{fontsize:"100%"}}>
+          <NavLink to="./projectsPage" className="text-white" style={{fontSize:"100%"}}>
             Projects
           </NavLink>
         </div>
 
         <div className="col-1">
-          <NavLink to="./Resume.pdf" className="text-white" target="_blank" style={{fontsize:"100%"}}>
+          <NavLink to="./Resume.pdf" className="text-white" target="_blank" style={{fontSize:"100%"}}>
             Resume
           </NavLink>
         </div>
