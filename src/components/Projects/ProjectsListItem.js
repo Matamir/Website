@@ -23,7 +23,7 @@ const ProjectListItem = (project) => {
             
             
            
-            <div>{project.projectDescription}</div>
+            <div dangerouslySetInnerHTML={{__html: project.projectDescription}}/>
            <br />
         </div>
       </div>
