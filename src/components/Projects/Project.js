@@ -1,6 +1,17 @@
 export default [
+
+  {projectName:`WebGames`,
+    projectLanguages:`HTML, CSS, JavaScript`,
+    projectDescription:`A react web app created to host a variety of web games.  I use this site to get more experience using JavaScript's state,
+    as well as HTML's canvas element.  I am always adding to the site if I get an idea for a game I would like to try to create.  
+    <a target="_blank" href="https://sillygames.netlify.app/"> The site can be accessed here. </a>`,
+    projectImage:"/Images/WebGames.png",
+    projectImageAltText:"",
+    projectTimeline:`September 2023 - present`},
+
+
   {projectName:`This Website`,
-    projectLanguages:`HTML, CSS, Javascript`,
+    projectLanguages:`HTML, CSS, JavaScript`,
     projectDescription:`Using techniques learned in my web development course, I created this website to show off projects that I work on, 
     and to create a hub where I can link my most recent resume as well as my github and linkedIn accounts.`,
     projectImage:"",
@@ -9,7 +20,7 @@ export default [
 
   
   {projectName:`Presidentle`,
-    projectLanguages:`HTML, CSS, Javascript`,
+    projectLanguages:`HTML, CSS, JavaScript`,
     projectDescription:`A react web app designed based on wordle and other similar games.  The site will randomly select one of the US presidents, 
     then the user can search for and select a president from a list of them using a dropdown from bootstrap.  The game can be found and played at 
     <a target="_blank" href="https://presidentle.netlify.app/"> the presidentle website. </a>`,
@@ -37,7 +48,7 @@ export default [
     projectTimeline:``},
 
   {projectName:`Photography Website`,
-    projectLanguages:`Javascript, HTML, CSS`,
+    projectLanguages:`JavaScript, HTML, CSS`,
     projectDescription:`I used techniques learned in my web development course to create a website used to host images from an instagram account.
     I implemented user accounts, likes, comments, and following.  The site used Instagram's API to pull relevant information about the images,
     and linked back to the instagram page.`,
@@ -46,7 +57,7 @@ export default [
     projectTimeline:`April 2022`},
 
   {projectName:`Tuiter`,
-    projectLanguages:`HTML, CSS, Javascript`,
+    projectLanguages:`HTML, CSS, JavaScript`,
     projectDescription:`For my web development course, I created a twitter-like website adding to it each week with new skills learned.
     The site is written mostly with HTML and CSS, and a few pages use JavaScript scripts to generate HTML.
     The site is hosted on netlify, from a github repository <a href="https://github.com/Matamir/web-dev" target="_blank"> found here</a>.
